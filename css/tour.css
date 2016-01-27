@@ -1,0 +1,31 @@
+/* Tour page styles */
+
+table {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px -10px;
+  background-image: url(../img/guitar_pick.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+th, td {
+	padding: 5px 10px;
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 500px) {
+	.heading {
+		margin-left: -10;
+	}
+}

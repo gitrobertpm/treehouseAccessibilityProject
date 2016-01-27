@@ -1,0 +1,41 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+fieldset {
+	margin: 25px auto;
+}
+
+label {
+	display: inline-block;
+	margin: 15px auto 2px;
+}
+
+.container{
+  text-align: center;
+}
+
+.newsletter{
+  text-align: right;
+}
+
+button {
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
